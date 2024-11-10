@@ -1,13 +1,18 @@
-body {
+.container{
     font-family: Arial, sans-serif;
     padding: 20px;
     margin: 0;
-    background-color: #f4f4f9;
+    background-color: #b9c7ff;
+    height:100vh;
 }
 
-h1 {
+#heading{
     text-align: center;
-    color: #333;
+    color: #eeffe8;
+    font-size: 3rem;
+    text-decoration: underline double #d1d1d1;
+    text-shadow: 2px 2px #000;
+    font-style: italic;
 }
 
 input {

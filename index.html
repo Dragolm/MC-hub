@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>Task Manager</h1>
-    
-    <div>
-        <h2>Add New Task</h2>
-        <input type="text" id="taskInput" placeholder="Enter task name">
-        <button onclick="addTask()">Add Task</button>
+    <div class="container">
+        <h1 id="heading">Task Manager</h1>
+        <div>
+            <h2>Add New Task</h2>
+            <input type="text" id="taskInput" placeholder="Enter task name">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <h2>Tasks</h2>
+        <ul id="taskList"></ul>
+
+        <script src="js/main.js"></script>
     </div>
-
-    <h2>Tasks</h2>
-    <ul id="taskList"></ul>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
